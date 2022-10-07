@@ -9,4 +9,4 @@ crontab ${CRONTAB_FILE_PATH}
 echo "crontab -l"
 crontab -l
 
-crond -l 2 -f
+crond -n
